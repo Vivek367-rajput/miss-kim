@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AwesomeBot - Your Ultimate Discord Bot</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h1>⚡ AwesomeBot</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#commands" class="nav-link">Commands</a></li>
+                <li><a href="#stats" class="nav-link">Stats</a></li>
+                <li><a href="#faq" class="nav-link">FAQ</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to AwesomeBot</h1>
+            <p>The Most Powerful Discord Bot for Your Server</p>
+            <div class="hero-buttons">
+                <a href="#invite" class="btn btn-primary">Invite Bot</a>
+                <a href="#features" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="bot-icon">🤖</div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Why Choose AwesomeBot?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎵</div>
+                    <h3>Music Commands</h3>
+                    <p>Play music from YouTube, Spotify, and more with advanced controls.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Moderation Tools</h3>
+                    <p>Advanced moderation features to keep your server safe and organized.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎮</div>
+                    <h3>Fun Commands</h3>
+                    <p>Entertaining games, memes, and fun activities for your community.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>Economy System</h3>
+                    <p>Full-featured economy system with currency, shops, and leveling.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">��</div>
+                    <h3>Analytics Dashboard</h3>
+                    <p>Beautiful dashboard to track server statistics and member activity.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚙️</div>
+                    <h3>Custom Settings</h3>
+                    <p>Fully customizable settings to match your server's unique style.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Commands Section -->
+    <section id="commands" class="commands">
+        <div class="container">
+            <h2>Command Documentation</h2>
+            <div class="commands-wrapper">
+                <div class="command-category">
+                    <h3>🎵 Music Commands</h3>
+                    <div class="command-list">
+                        <div class="command-item">
+                            <code>!play &lt;song&gt;</code>
+                            <span>Play a song from YouTube or Spotify</span>
+                        </div>
+                        <div class="command-item">
+                            <code>!pause</code>
+                            <span>Pause the current song</span>
+                        </div>
+                        <div class="command-item">
+                            <code>!resume</code>
+                            <span>Resume playing music</span>
+                        </div>
+                        <div class="command-item">
+                            <code>!skip</code>
+                            <span>Skip to the next song</span>
+                        </div>
+                        <div class="command-item">
+                            <code>!queue</code>
+                            <span>View the music queue</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="command-category">
+                    <h3>🛡️ Moderation Commands</h3>
+                    <div class="command-list">
+                        <div class="command-item">
+                            <code>!ban &lt;user&gt; [reason]</code>
+                            <span>Ban a user from the server</span>
+                        </div>
+                        <div class="command-item">
+                            <code>!kick &lt;user&gt; [reason]</code>
+                            <span>Kick a user from the server</span>
+                        </div>
+                        <div class="command-item">
+                            <code>!warn &lt;user&gt; [reason]</code>
+                            <span>Warn a user for misconduct</span>
+                        </div>
+                        <div class="command-item">
+                            <code>!mute &lt;user&gt; [time]</code>
+                            <span>Mute a user temporarily</span>
+                        </div>
+                        <div class="command-item">
+                            <code>!slowmode [seconds]</code>
+                            <span>Enable slowmode in the channel</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="command-category">
+                    <h3>🎮 Fun Commands</h3>
+                    <div class="command-list">
+                        <div class="command-item">
+                            <code>!meme</code>
+                            <span>Get a random meme</span>
+                        </div>
+                        <div class="command-item">
+                            <code>!8ball &lt;question&gt;</code>
+                            <span>Ask the magic 8-ball a question</span>
+                        </div>
+                        <div class="command-item">
+                            <code>!dice</code>
+                            <span>Roll a dice</span>
+                        </div>
+                        <div class="command-item">
+                            <code>!rps &lt;choice&gt;</code>
+                            <span>Play rock, paper, scissors</span>
+                        </div>
+                        <div class="command-item">
+                            <code>!trivia</code>
+                            <span>Play a trivia game</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="command-category">
+                    <h3>💰 Economy Commands</h3>
+                    <div class="command-list">
+                        <div class="command-item">
+                            <code>!balance</code>
+                            <span>Check your account balance</span>
+                        </div>
+                        <div class="command-item">
+                            <code>!daily</code>
+                            <span>Claim your daily reward</span>
+                        </div>
+                        <div class="command-item">
+                            <code>!transfer &lt;user&gt; &lt;amount&gt;</code>
+                            <span>Transfer currency to another user</span>
+                        </div>
+                        <div class="command-item">
+                            <code>!shop</code>
+                            <span>View the shop and buy items</span>
+                        </div>
+                        <div class="command-item">
+                            <code>!level</code>
+                            <span>Check your current level</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats">
+        <div class="container">
+            <h2>Bot Statistics</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">5000+</div>
+                    <div class="stat-label">Servers</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">250K+</div>
+                    <div class="stat-label">Active Users</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">100+</div>
+                    <div class="stat-label">Commands</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">99.9%</div>
+                    <div class="stat-label">Uptime</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Preview Section -->
+    <section id="dashboard" class="dashboard-preview">
+        <div class="container">
+            <h2>Dashboard Preview</h2>
+            <p class="dashboard-description">Manage your server settings with our beautiful and intuitive dashboard</p>
+            <div class="dashboard-mockup">
+                <div class="dashboard-header">
+                    <h3>Server Settings</h3>
+                </div>
+                <div class="dashboard-content">
+                    <div class="settings-panel">
+                        <div class="setting-item">
+                            <label>Server Name</label>
+                            <input type="text" value="My Awesome Server" disabled>
+                        </div>
+                        <div class="setting-item">
+                            <label>Prefix</label>
+                            <input type="text" value="!" disabled>
+                        </div>
+                        <div class="setting-item">
+                            <label>Welcome Message</label>
+                            <textarea disabled>Welcome to our server! Follow the rules.</textarea>
+                        </div>
+                        <div class="setting-item">
+                            <label>Moderation Level</label>
+                            <select disabled>
+                                <option>Medium</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="activity-chart">
+                        <h4>Weekly Activity</h4>
+                        <div class="chart-bars">
+                            <div class="bar" style="height: 60%;"></div>
+                            <div class="bar" style="height: 75%;"></div>
+                            <div class="bar" style="height: 50%;"></div>
+                            <div class="bar" style="height: 85%;"></div>
+                            <div class="bar" style="height: 70%;"></div>
+                            <div class="bar" style="height: 90%;"></div>
+                            <div class="bar" style="height: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I invite AwesomeBot to my server?</h3>
+                        <span class="toggle-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Click the "Invite Bot" button at the top of the page, authorize the bot, select your server, and you're done! The bot will be added to your server immediately.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is AwesomeBot free to use?</h3>
+                        <span class="toggle-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Yes! AwesomeBot is completely free. We offer a premium tier with additional features, but all core features are free forever.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I set up the welcome message?</h3>
+                        <span class="toggle-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Use the dashboard to configure your server settings. Go to the "Welcome" section and customize your welcome message. You can use variables like {user} and {server}.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can I customize the bot prefix?</h3>
+                        <span class="toggle-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Yes! You can change the bot prefix in your server settings through the dashboard. Use any character or string you prefer.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I get support?</h3>
+                        <span class="toggle-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        You can join our support server, contact us via email, or check out our documentation. Our support team is always ready to help!
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is there a premium version?</h3>
+                        <span class="toggle-icon">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        Yes! Premium members get access to advanced features, priority support, and exclusive commands. Check the dashboard for premium features.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Users Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"AwesomeBot has completely transformed how we manage our server. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <strong>Alex Chen</strong>
+                        <span>Server Owner</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"The music features are incredible. My members love it!"</p>
+                    <div class="testimonial-author">
+                        <strong>Jordan Smith</strong>
+                        <span>Community Manager</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Excellent support team and constantly updating with new features. 10/10!"</p>
+                    <div class="testimonial-author">
+                        <strong>Taylor Rodriguez</strong>
+                        <span>Discord Mod</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="info-item">
+                        <span class="info-label">📧 Email:</span>
+                        <a href="mailto:support@awesomebot.com">support@awesomebot.com</a>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">💬 Discord:</span>
+                        <a href="https://discord.gg/awesomebot" target="_blank">Join Our Server</a>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">🐙 GitHub:</span>
+                        <a href="https://github.com/awesomebot" target="_blank">GitHub Repository</a>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">🌐 Website:</span>
+                        <a href="https://awesomebot.com" target="_blank">awesomebot.com</a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>AwesomeBot</h4>
+                    <p>The most powerful Discord bot for your server.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#commands">Commands</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#" target="_blank">Documentation</a></li>
+                        <li><a href="#" target="_blank">Support Server</a></li>
+                        <li><a href="#" target="_blank">Privacy Policy</a></li>
+                        <li><a href="#" target="_blank">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" target="_blank">Twitter</a>
+                        <a href="#" target="_blank">Discord</a>
+                        <a href="#" target="_blank">GitHub</a>
+                        <a href="#" target="_blank">YouTube</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AwesomeBot. All rights reserved. | Made with ❤️ by the AwesomeBot Team</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Invite Modal -->
+    <div id="inviteModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Invite AwesomeBot</h2>
+            <p>Click the button below to invite AwesomeBot to your server:</p>
+            <a href="https://discord.com/oauth2/authorize?client_id=YOUR_BOT_ID&scope=bot&permissions=8" 
+               class="btn btn-primary btn-large" target="_blank">
+                Invite to Discord
+            </a>
+            <p class="modal-note">Replace YOUR_BOT_ID with your actual Discord bot ID</p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
